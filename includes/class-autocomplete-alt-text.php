@@ -77,6 +77,7 @@ class Autocomplete_Alt_Text {
 		$this->load_dependencies();
 		$this->set_locale();
 		$this->define_admin_hooks();
+
 	}
 
 	/**
@@ -114,15 +115,9 @@ class Autocomplete_Alt_Text {
 		 */
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/class-autocomplete-alt-text-admin.php';
 
-		/**
-		 * The class responsible for defining all actions that occur in the admin area.
-		 */
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-autocomplete-alt-text-functions.php';
 
 		$this->loader = new Autocomplete_Alt_Text_Loader();
-
-		// Instanciar la clase para registrar el hook
-		new Autocomplete_Alt_Text_Functions();
 
 	}
 
@@ -156,7 +151,8 @@ class Autocomplete_Alt_Text {
 
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
-		$this->loader->add_action( 'admin_menu', $plugin_admin, 'add_admin_menu' );
+
+		$this->loader->add_action( 'admin_menu', $plugin_admin, 'add_admin_page' );
 		$this->loader->add_action( 'admin_init', $plugin_admin, 'register_settings' );
 
 	}

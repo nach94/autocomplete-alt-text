@@ -3,19 +3,14 @@
  * included in this file.
  */
 
- #adminmenu .toplevel_page_autocomplete-alt-text .wp-menu-image::before {
-	content: "";
-	display: block;
-	width: 20px;
-	height: 20px;
-	background: url('../assets/image-svgrepo-com.svg') no-repeat center center;
-	background-size: contain;
-	margin: auto;
-}
-
-.dashicons-admin-alt-text {
-	display: flex;
-	align-items: center;
+#adminmenu .toplevel_page_autocomplete-alt-text .wp-menu-image::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    background: url('../assets/image-landscape-png-svgrepo-com.svg') no-repeat center center;
+    background-size: contain;
 }
 
 .flex-column {

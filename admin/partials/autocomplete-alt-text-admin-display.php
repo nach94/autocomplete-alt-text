@@ -12,7 +12,7 @@
  * @subpackage Autocomplete_Alt_Text/admin/partials
  */
 
-$options = get_option('autocomplete_alt_text_options', [] );
+$options = get_option('autocomplete_alt_text_options', []);
 
 ?>
 

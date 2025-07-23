@@ -54,20 +54,20 @@ class Autocomplete_Alt_Text_Admin {
 
 	}
 
-	public function add_admin_menu() {
-		add_menu_page(
+	public function add_admin_page() {
+		add_menu_page (
 			'Auto Alt Text',
 			'Auto Alt Text',
 			'manage_options',
 			'autocomplete-alt-text',
-			[ $this, 'display_admin_page' ],
+			[$this, 'display_admin_page'],
 			'dashicons-admin-alt-text',
 			25
 		);
 	}
 
 	public function display_admin_page() {
-		require_once plugin_dir_path( __FILE__ ) . 'partials/autocomplete-alt-text-admin-display.php';
+		require_once plugin_dir_path(__FILE__) . 'partials/autocomplete-alt-text-admin-display.php';
 	}
 
 	public function register_settings() {
