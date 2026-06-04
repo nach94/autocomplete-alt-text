@@ -5,7 +5,7 @@
  *
  * This file is used to markup the admin-facing aspects of the plugin.
  *
- * @link       https://helloeveryone.me/
+ * @link       https://helloeveryone.com.ar/
  * @since      1.0.0
  *
  * @package    Autocomplete_Alt_Text
@@ -17,9 +17,8 @@ $options = get_option('autocomplete_alt_text_options', []);
 ?>
 
 <div class=" flex-column gap-s bg-dark-grey-2 text-white padding-l">
-    <img class="max-width-10" src="https://helloeveryone.me/wp-content/uploads/HelloEveryone-Logo-300x79.webp" alt="Logo Hello Everyone">
     <address class="text-xs flex-row items-middle gap-xs">
-        Desarrollado por&nbsp;<a class="text-white transition-global" href="https://helloeveryone.me" rel="noreferrer" target="_blank">Hello Everyone</a>
+        Desarrollado por&nbsp;<a class="text-white transition-global" href="https://helloeveryone.com.ar/" rel="noreferrer" target="_blank">Hello Everyone</a>
     </address>
 </div>
 
