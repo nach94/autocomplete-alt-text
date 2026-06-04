@@ -8,7 +8,7 @@
  * registers the activation and deactivation functions, and defines a function
  * that starts the plugin.
  *
- * @link              https://helloeveryone.me/
+ * @link              https://helloeveryone.com.ar/
  * @since             1.0.0
  * @package           Autocomplete_Alt_Text
  *
@@ -18,7 +18,7 @@
  * Description:       This plugin, allows you to complete automatically the alternative text for WordPress images when the file is upload.
  * Version:           1.0.0
  * Author:            Hello Everyone
- * Author URI:        https://helloeveryone.me//
+ * Author URI:        https://helloeveryone.com.ar/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       autocomplete-alt-text
